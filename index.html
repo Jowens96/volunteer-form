@@ -8,40 +8,40 @@
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/type.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700" rel="stylesheet">
   </head>
   <body>
 
     <section>
       <div>
-        <header>
-          <h1>Apply to be a tree planter</h1>
-          <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+        <header class="island-1-2">
+          <h1 class="push-1-4 pad-t-1-2 bold peta">Apply to be a tree planter</h1>
+          <p class="bold">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
         </header>
 
         <form method="POST" action="index.html" method="post">
-          <fieldset>
-            <legend>Personal details</legend>
+          <fieldset class="fieldset-1 island-1-2">
+            <legend class="pad-t-2 giga bold pad-b">Personal details</legend>
             <!--<div class="grid">-->
 
               <div>
                 <label for="name">Full Name</label>
                 <input id="name" name="name" required>
-                <p class="italic">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+                <p class="italic micro">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
               </div>
 
               <div>
                 <label for="name">What should we call you?</label>
                 <input id="name" name="name" required>
-                <p class="italic">What all your friends call you, e.g. “Liz”.</p>
+                <p class="italic micro">What all your friends call you, e.g. “Liz”.</p>
               </div>
 
-              <div>
+              <div class="push">
                 <label for="date">Date of birth</label>
-                <input id="date" name="date" required>
+                <input id="date" name="date" placeholder="yyyy-mm-dd" required>
               </div>
 
-              <div>
+              <div class="push">
                 <label for="tshirt">T-shirt size</label>
                 <select id="tshirt" required>
                   <option>Select a t-shirt size</option>
@@ -62,8 +62,8 @@
                 </select>
               </div>
 
-              <div>
-                <label for="email">E-mail</label>
+              <div class="push">
+                <label for="email">Email</label>
                 <input type="email" id="email" required>
               </div>
 
@@ -76,20 +76,20 @@
             <!--</div>-->
           </fieldset>
 
-          <fieldset>
-            <legend>Address</legend>
+          <fieldset class="island-1-2">
+            <legend class="push">Address</legend>
 
-            <div>
+            <div class="push">
               <label for="street-address">Street address</label>
               <input id="street-address" required>
             </div>
 
-            <div>
+            <div class="push">
               <label for="city">City</label>
               <input id="city" required>
             </div>
 
-            <div>
+            <div class="push">
               <label for="province">Province</label>
               <select id="province">
                 <option>Select a province</option>
@@ -109,7 +109,7 @@
               </select>
             </div>
 
-            <div>
+            <div class="push-1-2">
               <label for="postal-code">Postal code</label>
               <input id="postalcode" required>
             </div>
