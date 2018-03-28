@@ -13,6 +13,10 @@ textarea {
   border-color: #6e8c62;
 }
 
+fieldset {
+  border: none;
+}
+
 footer {
   background-color: #70ad55;
   color: #fff;
