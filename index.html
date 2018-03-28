@@ -43,7 +43,7 @@
 
           <div class="push">
             <label for="tshirt">T-shirt size</label>
-            <select id="tshirt" required>
+            <select id="tshirt" required multiple>
               <option>Select a t-shirt size</option>
               <optgroup label="Fitted">
                 <option>Fitted: XS</option>
@@ -110,13 +110,13 @@
           </div>
 
           <div class="push-1-2">
-            <label for="postal-code">Postal code</label>
+            <label for="postalcode">Postal code</label>
             <input id="postalcode" required>
           </div>
         </fieldset>
 
         <fieldset class="island-1-2">
-          <label class="bold pad-t push-1-2 giga" for="checkboxes">What activities are you interested in helping with?</label>
+          <label class="bold pad-t push-1-2 giga" for="dig">What activities are you interested in helping with?</label>
 
           <input type="checkbox" id="dig">
           <label for="dig">Digging holes</label>
@@ -145,7 +145,7 @@
         </fieldset>
 
         <fieldset class="island-1-2">
-          <label class="push-1-2 tera bold pad-t" for="checkboxes2">Do you have any experience with the following?</label>
+          <label class="push-1-2 tera bold pad-t" for="shovels">Do you have any experience with the following?</label>
 
           <input type="checkbox" id="shovels">
           <label for="shovels">Shovels</label>
@@ -189,17 +189,18 @@
 
         <fieldset class="island-1-2">
           <legend class="push-1-2">Do you have a pick-up truck you’d be willing to use?</legend>
-          <input type="radio" id="yes" name="truck">
+
+          <input type="radio" name="truck">
           <label for="yes">Yes</label>
-          <input type="radio" id="no" name="truck">
+          <input type="radio" name="truck">
           <label for="no">No</label>
         </fieldset>
 
         <fieldset class="island-1-2">
           <legend class="push-1-2">Do you have up-to-date first-aid certification?</legend>
-          <input type="radio" id="yes" name="aid">
+          <input type="radio" name="aid">
           <label for="yes">Yes</label>
-          <input type="radio" id="no" name="aid">
+          <input type="radio" name="aid">
           <label for="no">No</label>
         </fieldset>
 
